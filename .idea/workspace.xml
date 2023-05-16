@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aa5b441-62ca-46a2-95e9-4a7c9d781069" name="Changes" comment="Classes">
-      <change afterPath="$PROJECT_DIR$/src/CPosition.java" afterDir="false" />
+    <list default="true" id="9aa5b441-62ca-46a2-95e9-4a7c9d781069" name="Changes" comment="First objects">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CDepot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CDepot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CRepairTram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CRepairTram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSteeringTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSteeringTrack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CStop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CTrack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CTram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CTram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CGuiPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CGuiPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CJFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +36,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/melamela/IdeaProjects/MPKzaury",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/melamela/IdeaProjects/MPKzaury&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="MPKzaury" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,7 +73,9 @@
       <option name="presentableId" value="Default" />
       <updated>1683236272241</updated>
       <workItem from="1683236273743" duration="963000" />
-      <workItem from="1683725093867" duration="5005000" />
+      <workItem from="1683725093867" duration="5899000" />
+      <workItem from="1683884604429" duration="4903000" />
+      <workItem from="1684226853890" duration="3605000" />
     </task>
     <task id="LOCAL-00001" summary="Classes">
       <created>1683726087706</created>
@@ -73,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683726087706</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First objects">
+      <created>1683793679429</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683793679432</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes" />
+    <MESSAGE value="First objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="First objects" />
   </component>
 </project>
