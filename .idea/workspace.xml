@@ -4,16 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aa5b441-62ca-46a2-95e9-4a7c9d781069" name="Changes" comment="First objects">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CGuiPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CGuiPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CJFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="9aa5b441-62ca-46a2-95e9-4a7c9d781069" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/MPKzaury.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,6 +91,7 @@
       <workItem from="1683725093867" duration="5899000" />
       <workItem from="1683884604429" duration="4903000" />
       <workItem from="1684226853890" duration="3605000" />
+      <workItem from="1684689485118" duration="335000" />
     </task>
     <task id="LOCAL-00001" summary="Classes">
       <created>1683726087706</created>
@@ -91,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683793679432</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1684689551789</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684689551789</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Classes" />
     <MESSAGE value="First objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="First objects" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>

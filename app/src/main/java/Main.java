@@ -5,4 +5,4 @@ public class Main {
 
         jFrame.guiPanel.readMap();
     }
-}
+}//kk
