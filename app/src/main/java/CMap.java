@@ -1,0 +1,2 @@
+public class CMap {
+}
