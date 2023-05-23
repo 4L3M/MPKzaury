@@ -4,9 +4,79 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aa5b441-62ca-46a2-95e9-4a7c9d781069" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/MPKzaury.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="9aa5b441-62ca-46a2-95e9-4a7c9d781069" name="Changes" comment="test2">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/Objects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/CAbstractTram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/CDepot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/CGuiPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/CJFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/CLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/CMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/CPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/CRepairTram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/CSimulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/CStatJFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/CStatJPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/CStatistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/CSteeringTrack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/CStop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/CTrack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/CTram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/distributions/app.tar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/distributions/app.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/distributions/app.zip" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/distributions/app.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/libs/app.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/libs/app.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/classes/mpkprojekt.AppTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/classes/mpkprojekt.AppTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/packages/mpkprojekt.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/packages/mpkprojekt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/scripts/app" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/scripts/app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/scripts/app.bat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/scripts/app.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/test-results/test/TEST-mpkprojekt.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/test-results/test/TEST-mpkprojekt.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/compileTransaction/stash-dir/CGuiPanel.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/compileTransaction/stash-dir/CJFrame.class.uniqueId1" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileJava/compileTransaction/stash-dir/CJFrame.class.uniqueId1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CAbstractTram.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CAbstractTram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CDepot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CGuiPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CGuiPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CJFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CRepairTram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CStatJFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CStatJPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CStatistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CSteeringTrack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CStop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CTrack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/CTram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CDepot.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CDepot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CGuiPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CJFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CRepairTram.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CRepairTram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CStatJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CStatJFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CStatJPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CStatJPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSteeringTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CSteeringTrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CStop.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CStop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CTrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CTram.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CTram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestMap" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +93,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MPKprojekt" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -34,6 +109,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -55,7 +131,6 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/melamela/IdeaProjects/MPKzaury&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -67,8 +142,10 @@
 }</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="MPKzaury" />
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="mpkprojekt.Main" />
+      <module name="MPKprojekt.app.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,7 +168,9 @@
       <workItem from="1683725093867" duration="5899000" />
       <workItem from="1683884604429" duration="4903000" />
       <workItem from="1684226853890" duration="3605000" />
-      <workItem from="1684689485118" duration="335000" />
+      <workItem from="1684689485118" duration="744000" />
+      <workItem from="1684783115996" duration="4279000" />
+      <workItem from="1684834682086" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="Classes">
       <created>1683726087706</created>
@@ -114,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684689551789</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test2">
+      <created>1684689846253</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684689846253</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +210,7 @@
     <MESSAGE value="Classes" />
     <MESSAGE value="First objects" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test2" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mpkprojekt.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-21T12:10:52" hostname="DESKTOP-MR9N7KJ" time="0.029">
+<testsuite name="mpkprojekt.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-23T09:29:26" hostname="DESKTOP-MR9N7KJ" time="0.048">
   <properties/>
-  <testcase name="appHasAGreeting()" classname="mpkprojekt.AppTest" time="0.029"/>
+  <testcase name="appHasAGreeting()" classname="mpkprojekt.AppTest" time="0.048"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

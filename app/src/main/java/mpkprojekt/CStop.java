@@ -1,7 +1,10 @@
+package mpkprojekt;
+
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CStop {
+public class CStop implements Objects{
     int stop_number;
     List<Double> schedule = new ArrayList<>();
     CPosition pos;
@@ -12,5 +15,7 @@ public class CStop {
     }
 
 
-
+    @Override
+    public void drawMe(Graphics2D G2D) {
+    }
 }

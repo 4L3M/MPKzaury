@@ -1,3 +1,5 @@
+package mpkprojekt;
+
 public class CSteeringTrack extends CTrack{
     int tram_line;
     public CSteeringTrack(int occupied, CPosition pos) {

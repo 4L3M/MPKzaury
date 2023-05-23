@@ -1,3 +1,5 @@
+package mpkprojekt;
+
 import java.util.List;
 
 public class CDepot extends CStop{

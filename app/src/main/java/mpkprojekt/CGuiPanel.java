@@ -1,5 +1,9 @@
+package mpkprojekt;
+
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -8,14 +12,17 @@ import java.util.List;
 import java.util.Scanner;
 
 public class CGuiPanel extends JPanel {
-    int width = 1000;
-    int heigth = 1000;
-    char [][] array = new char[6][9];
+    int width = 1900;
+    int heigth = 1050;
+    char [][] array = new char[10000][10000];
+    int maxc = 0;   // max column
+    int maxr = 0;   // max row
     public CGuiPanel(){
         this.setPreferredSize(new Dimension(width,heigth));
+        repaint();
     }
     public void readMap(){
-        File file = new File("TestMap.txt"); // Otwieranie pliku o podanej nazwie
+        File file = new File("C:\\MPKprojekt\\TestMap"); // Otwieranie pliku o podanej nazwie
         Scanner scanner = null; // Tworzy obiekt typu Scanner
         try {
             scanner = new Scanner(file);
@@ -26,23 +33,25 @@ public class CGuiPanel extends JPanel {
         for(;scanner.hasNextLine();){ // Tak dlugo dodawaj do listy, dopóki w pliku są kolejne linie
             list.add(scanner.nextLine()); // Wczytanie do listy poszczególnych wierszy
         }
-        /*for(String str: list){
-            System.out.println(str);
-        }*/
-        // wiersze = 5, kolumny = 8
-
-        for(int i = 0; i<6;i++){
-            for (int j = 0; j<9;j++){
+        maxr = list.size();
+        for(String s: list){
+            if(maxc < s.length()) maxc = s.length();
+        }
+        System.out.println(maxc+"\n"+maxr);
+        for(int i = 0; i<maxr;i++){
+            for (int j = 0; j<maxc;j++){
                 array[i][j] = list.get(i).charAt(j);
             }
         }
-        for(int i = 0; i<6;i++){
-            for (int j = 0; j<9;j++){
+       /* for(int i = 0; i<maxr;i++){
+            for (int j = 0; j<maxc;j++){
                 System.out.print(array[i][j]);
             }
             System.out.println();
-        }
-        System.out.println((Arrays.deepToString(array)));
+        }*/
+
+
+
     }
     public void paint(Graphics G){
         Graphics2D G2D = (Graphics2D) G;
@@ -56,16 +65,17 @@ public class CGuiPanel extends JPanel {
         G2D.fillRect(10,110,100,100);*/
 
         int x = 10, y = 10;
-        for(int i = 0; i<6;i++){
-            for (int j = 0; j<9;j++){
+        for(int i = 0; i<maxr;i++){
+            for (int j = 0; j<maxc;j++){
                 if(array[i][j]=='B'){
                     G2D.setColor(Color.PINK);}
                 if(array[i][j]==' '){
                     G2D.setColor(Color.GREEN);}
                 if (array[i][j]=='T'){
                     G2D.setColor(Color.BLUE);}
-                G2D.fillRect(y+j*100,y+i*100,100,100);
+                G2D.fillRect(10+j*10,10+i*10,10,10);
             }
         }
     }
+
     }

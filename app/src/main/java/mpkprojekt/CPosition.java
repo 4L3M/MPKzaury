@@ -1,3 +1,5 @@
+package mpkprojekt;
+
 public class CPosition {
     int x;
     int y;
