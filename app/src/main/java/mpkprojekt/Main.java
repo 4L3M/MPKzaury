@@ -1,10 +1,11 @@
 package mpkprojekt;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        CJFrame jFrame = new CJFrame();
+    CSimulator simulator = new CSimulator();
+    simulator.Sim();
 
-        jFrame.guiPanel.readMap();
     }
 }
