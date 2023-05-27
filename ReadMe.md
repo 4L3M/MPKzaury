@@ -8,7 +8,7 @@ Symulacja ruchu tramwajów
 
 Autorzy:
 Amelia Draga 272866
-Konrad Grunt 123456	
+Konrad Grunt <span style="color:red"> 123456	</span>
 
 
 Prowadzący:
