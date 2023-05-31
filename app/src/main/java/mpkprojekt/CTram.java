@@ -1,6 +1,6 @@
 package mpkprojekt;
 
-import org.checkerframework.checker.units.qual.Length;
+//import org.checkerframework.checker.units.qual.Length;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -25,7 +25,7 @@ public class CTram extends CAbstractTram implements Objects{
     @Override
     public void drawMe(Graphics2D G2D) {
         for(CPosition p: checkLength()){
-            G2D.setColor(Color.PINK);
+            G2D.setColor(Color.BLUE);
             G2D.fillRect(p.x * 10,p.y * 10,10,10);
         }
     }

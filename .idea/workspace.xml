@@ -4,56 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="105a7afc-3188-4d18-9dfb-130dcd2ee091" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+    <list default="true" id="105a7afc-3188-4d18-9dfb-130dcd2ee091" name="Changes" comment="Prawie pełna funkcjonalność kodu">
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sprawozdanie PO.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CAbstractTram.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CAbstractTram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/TestMap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CGuiPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CGuiPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CPosition.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CSimulator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CTrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CTrack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CTram.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CTram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/distributions/app.tar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/distributions/app.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/distributions/app.zip" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/distributions/app.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/libs/app.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/libs/app.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/classes/mpkprojekt.AppTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/classes/mpkprojekt.AppTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/packages/mpkprojekt.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/packages/mpkprojekt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/test-results/test/TEST-mpkprojekt.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/test-results/test/TEST-mpkprojekt.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/compileTransaction/stash-dir/CJFrame.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CAbstractTram.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CAbstractTram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/TestMap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/TestMap" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/TestMap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CGuiPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CGuiPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CJFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CStop.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CStop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CTrack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CTram.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CTram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/TestMap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +83,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/MPKzaury&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/MauseListener&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -116,7 +94,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mpkprojekt.App" />
+      <module name="MPKprojekt.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mpkprojekt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mpkprojekt.Main" />
       <module name="MPKprojekt.app.main" />
@@ -133,6 +124,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -147,10 +139,34 @@
       <workItem from="1684920901187" duration="395000" />
       <workItem from="1685116327314" duration="7600000" />
       <workItem from="1685179079633" duration="23537000" />
+      <workItem from="1685221778911" duration="1203000" />
+      <workItem from="1685280024469" duration="6452000" />
+      <workItem from="1685289369778" duration="7210000" />
+      <workItem from="1685442003657" duration="772000" />
+      <workItem from="1685547900733" duration="5007000" />
     </task>
+    <task id="LOCAL-00001" summary="Prawie pełna funkcjonalność kodu">
+      <created>1685221972155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685221972155</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Prawie pełna funkcjonalność kodu">
+      <created>1685222052810</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685222052810</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Prawie pełna funkcjonalność kodu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prawie pełna funkcjonalność kodu" />
   </component>
 </project>

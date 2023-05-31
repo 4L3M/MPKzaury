@@ -1,72 +1,72 @@
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                    BBB BBB                                                                                                 B
-B TT                                   B   B   B                                                                                                B
-B TT                                   B       B                                                                                                B
-B TT                                    B     B                                                                                                TB
-B TT                                     B   B                                                                                                TTB
-B TT                                       B                                                                                                 TTTB
-B TT                                                                                                                                        TTTTB
-B TT                                                                                                                                       TTTTTB
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
-B TT                                                                                                                                            B
+B                                                  BA                                                                                           B
+B                                                  BA                                                                                           B
+B                                                  BAAAAAAAA                                                                                    B
+B                                                  BBBBBBBBA                                                                                    B
+B                                                         BA                                                                                    B
+B                                                         BA                                                                                    B
+B                                                         BA                                                                                    B
+B                                                         BA                                                                                    B
+B                                                         BA                                                                                    B
+B                                                         BA                                                                                    B
+B                                                         BAAAAAAAAAAA                                                                          B
+B 0011                                                    BBBBBBBBBBBA                                                                          B
+B  0011                                                             BA                                                                          B
+B   0011                                                            BA                                                                          B
+B    001                                                            BA                                                                          B
+B     01                                                            BA                                                                          B
+B     01                                                            BA                                                                          B
+B     01                                                            BA                                                                          B
+B     01                                            1111111111111111BAAAAAAAAAAAAAAAAAA                                                         B
+B     01                                     11111111000000000000000BBBBBBBBBBBBBBBBBBAA                                                        B
+B     011111111111111                  111111100000000              BA               BBAA                       11111111111                     B
+B     0000000000000011111111           10000000                     BAAAA             BBA         11111111111111100000000011111111              B
+B                  0000000011111111111110                           BBBBA              BA         1000000000000000       0000000001             B
+B                         000000000001000                              BA              BAAAAAAA11110                             011111111111111B
+B                                   01                                 BAAA            BBBBBBBB10000                             000000000000000B
+B                                   01                                 BBBA                    10                                               B
+B                                   01                                   BA                    10                                               B
+B                                   01                                   BAAAAA                10                                               B
+B                                   01                                   BBBBBA                10                                               B
+B                               55550111                                     BA                10                                               B
+B                              5544000111                                    BA                10                                               B
+B                            55544    000111                                 BA                10                                               B
+B                            5444       000111111111111111                   BA    111111111111101111111                                        B
+B                           554           000000000000000111                 BA 111100000000000000000001                                        B
+B                          5544                         00011111111111111111111110000          BA     0111111                                   B
+B                         5544                            000000000000000000000000             BA     0000001                                   B
+B                        5544                                                BA                BA          01                                   B
+B                       5544                                                 BAAAAAAA          BA          011111111                            B
+BBBBBBBBBBBBBBBBB       544                                                  BBBBBBBA          BA          000000001                            B
+BAAAAAAAAAAAAAAAB       54                                                         BA          BA                 01                            B
+B              AB       54                                                         BA          BA                 01                            B
+B              AB       54                                                         BAA         BA                 01                            B
+B              ABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB                                    BBAA        BA                 01                            B
+B              AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB                                     BBAA       BA                 01111111111111111             B
+B                       54                   AB                                      BBA       BA                 00000000000000001             B
+B                       54                   ABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBA                                01             B
+B                      554                   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                                01             B
+B                     5544                                                            87       01                                011111111111111B
+B                    5544                                                             87       01                                000000000000000B
+B                    544                                                              87       01                                               B
+B                    54                                                        888888887       0111                                             B
+B                    54                                                 8888888877777777       0001                                             B
+B                    54                                                 877777777                0111                                           B
+B                    54                                                 87                       0001                                           B
+B                 55554                                                 87                         01                                           B
+B                 54444                                                 87                         01                                           B
+B                 54                                                    8777                       01111111                                     B
+B                 54                                                    8887                       00000001                                     B
+B  55555555555555554                                                      87                             01                                     B
+B  54444444444444444                                                      87                             01                                     B
+B  54                                                   88888888888888888887                             01                                     B
+B  54                                                   87777777777777777777                             0111                                   B
+B  54                                                   87                                               000111                                 B
+B  54                                                   87                                                 00011111111                          B
+B  54                                                   87                                                   000000001                          B
+B  54                                                   87                                                          01                          B
+B  54                                                   87                                                          0111111111                  B
+B  54                                                   87                                                          0000000001                  B
+B5554                                                   87                                                                  011111111           B
+B4444                                                   87                                                                  000000001           B
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB

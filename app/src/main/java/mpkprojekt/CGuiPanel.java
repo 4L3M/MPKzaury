@@ -22,9 +22,10 @@ public class CGuiPanel extends JPanel {
     public CGuiPanel(ArrayList <CTram> tramArrayList){
         this.setPreferredSize(new Dimension(width,heigth));
         this.tramArrayList = tramArrayList;
+        readMap();
     }
     public void readMap(){
-        File file = new File("TestMap"); // Otwieranie pliku o podanej nazwie
+        File file = new File("C:\\MPKzaury\\app\\src\\main\\java\\TestMap"); // Otwieranie pliku o podanej nazwie
         Scanner scanner = null; // Tworzy obiekt typu Scanner
         try {
             scanner = new Scanner(file);
@@ -39,7 +40,7 @@ public class CGuiPanel extends JPanel {
         for(String s: list){
             if(maxc < s.length()) maxc = s.length();
         }
-        System.out.println(maxc+"\n"+maxr);
+      //  System.out.println(maxc+"\n"+maxr);
         for(int i = 0; i<maxr;i++){
             for (int j = 0; j<maxc;j++){
                 array[i][j] = list.get(i).charAt(j);
@@ -57,11 +58,11 @@ public class CGuiPanel extends JPanel {
     }
     public void paint(Graphics G){
         Graphics2D G2D = (Graphics2D) G;
-  /*      int x = 10, y = 10;
+       int x = 10, y = 10;
         for(int i = 0; i<maxr;i++){
             for (int j = 0; j<maxc;j++){
-                if(array[i][j]=='B'){
-                    G2D.setColor(Color.PINK);}
+                if(array[i][j]=='B'||array[i][j]=='A'||array[i][j]=='1'||array[i][j]=='0'|| array[i][j]=='4'|| array[i][j]=='5'|| array[i][j]=='7'|| array[i][j]=='8'){
+                    G2D.setColor(Color.orange.darker().darker());}
                 if(array[i][j]==' '){
                     G2D.setColor(Color.GREEN);}
                 if (array[i][j]=='T'){
@@ -69,7 +70,7 @@ public class CGuiPanel extends JPanel {
                 G2D.fillRect(10+j*10,10+i*10,10,10);
             }
         }
-*/
+
         for (Objects o: objects){
            o.drawMe(G2D);
         }
