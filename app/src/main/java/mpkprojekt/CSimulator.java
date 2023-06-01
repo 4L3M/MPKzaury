@@ -38,9 +38,10 @@ public class CSimulator {
         jFrame = new CJFrame(trams);
         jFrame.guiPanel.objects = obj;
         jFrame.guiPanel.readMap();
-        Timer timer = new Timer(1,new CTimer(this));
+        Timer timer = new Timer(100,new CTimer(this));
         timer.start();
         createStop();
+        createLights();
 
         CTram tram2 = new CTram(5,line15,0,trams);
         obj.add(tram2);
@@ -99,6 +100,29 @@ public class CSimulator {
           stops.add(stop);
       }
     }
+
+    public void createLights(){
+        ArrayList<String> lightFromFile = new ArrayList<>();
+        File file = new File("C:\\MPKzaury\\app\\src\\main\\java\\trafficLights");
+        Scanner scanner = null;
+        try {
+            scanner = new Scanner(file);
+        } catch (FileNotFoundException e) {
+            System.err.println("Brak pliku ze swiatlami");
+            throw new RuntimeException(e);
+        }
+        while (scanner.hasNextLine()){
+            lightFromFile.add(scanner.nextLine());
+        }
+
+        for(String s: lightFromFile){
+            String [] singleLight = s.split(";");
+            CTrafficLights trafficLights = new CTrafficLights(singleLight[0],singleLight[1],trams,0);
+
+            obj.add(trafficLights);
+            stops.add(trafficLights);
+    }
+}
 }
 
 class CTimer implements ActionListener {

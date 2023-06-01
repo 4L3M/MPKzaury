@@ -21,10 +21,10 @@ public class CTrafficLights extends CStop{
     }
     @Override
     public void stopTram(int currentTime) {
-        if ((currentTime + offSetTime) % 60 < 30) {
-            colour = true;
-        } else {
+        if ((currentTime + offSetTime) % 60 < 55) {
             colour = false;
+        } else {
+            colour = true;
         }
 
         for (CTram t : trams) {
