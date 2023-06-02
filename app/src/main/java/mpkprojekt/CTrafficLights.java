@@ -3,11 +3,11 @@ package mpkprojekt;
 import java.awt.*;
 import java.util.ArrayList;
 
-public class CTrafficLights extends CStop{
+public class CTrafficLights extends CStop implements Objects{
     boolean colour = false;
     int offSetTime = 0;
-    public CTrafficLights(String position, String controlPosition, ArrayList<CTram> tramsList, int offSetTime) {
-        super(position, controlPosition, tramsList);
+    public CTrafficLights(String position, String controlPosition, ArrayList<CTram> tramsList, int offSetTime, ArrayList<CAbstractTram> abstractTrams) {
+        super(position, controlPosition,  abstractTrams);
         this.offSetTime = offSetTime;
     }
     public void drawMe (Graphics2D G2D){
@@ -19,31 +19,22 @@ public class CTrafficLights extends CStop{
             G2D.fillRect(pos.x * 10,pos.y * 10,10,10);
         }
     }
-    @Override
-    public void stopTram(int currentTime) {
-        if ((currentTime + offSetTime) % 60 < 55) {
+
+    boolean checkifcango(CPosition position){
+        if((position.x==controlPos.x)&&(position.y==controlPos.y)){
+            if (colour) return true;
+            //System.out.println(position.x+" "+position.y+ " "+controlPos.x+" "+controlPos.y);
+            return false;
+        }
+        return true;
+
+    }
+
+    public void changetime(int currentTime) {
+        if ((currentTime + offSetTime) % 60 < 59) {
             colour = false;
         } else {
             colour = true;
-        }
-
-        for (CTram t : trams) {
-
-            for (CPosition p : t.checkLength()) {
-                CPosition myPosition = controlPos;
-                if (myPosition.x == p.x && myPosition.y == p.y){
-                    if(t == stoppedTram) continue;
-                    if(!colour) {
-                        t.stop();
-                        stoppedTram = t;
-                    }
-                }
-                break;
-            }
-        }
-        if(stoppedTram != null && colour) {
-            stoppedTram.start();
-            stoppedTram = null;
         }
     }
 }

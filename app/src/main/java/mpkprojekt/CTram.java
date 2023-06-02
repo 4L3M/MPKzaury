@@ -6,76 +6,67 @@ import java.awt.*;
 import java.util.ArrayList;
 public class CTram extends CAbstractTram implements Objects{
 
-    ArrayList <CTram> trams;
     int isWorking;
     Double delay;
-    int map_pos;
-    CLine line;
-    int drive = 1;
-    public CTram( int length, CLine line, int map_pos, ArrayList <CTram> trams) {
-        super();
-        this.trams = trams;
-        this.length = length;
-        this.map_pos = map_pos;
-        this.line = line;
-        isWorking = 0;
+    int timewaiting=0;
+    ArrayList<CTrafficLights> trafficLights;
+    ArrayList<CPlatform> platforms;
+    ArrayList<CRepairTram> repairTrams;
+    public CTram( int length, CLine line, int map_pos, ArrayList<CAbstractTram> abstractTrams, ArrayList<CTrafficLights> trafficLights, ArrayList<CPlatform> platforms,ArrayList<CRepairTram> repairTrams) {
+        super(length, map_pos, line, abstractTrams);
+        this.trafficLights=trafficLights;
+        isWorking = 1;
         delay = 0.0;
+        this.platforms=platforms;
+        this.repairTrams = repairTrams;
     }
 
     @Override
     public void drawMe(Graphics2D G2D) {
-        for(CPosition p: checkLength()){
+        for(CPosition p: listtodraw()){
             G2D.setColor(Color.BLUE);
             G2D.fillRect(p.x * 10,p.y * 10,10,10);
         }
     }
-
-    public void move (){
-        if(drive == 1){
-            int current = map_pos;
-            if((map_pos+1)>=line.tracks.size()){
-                //System.err.println(trams.size());
-                trams.remove(this);
-                //System.err.println(trams.size());
-              //  return -1;
+    @Override
+    public boolean checkIfCanGo(){
+      /*  if(isWorking==1) {
+            if (map_pos == 30) {
+                this.isWorking = 0;
+                this.timewaiting = map_pos;
             }
-            map_pos=(map_pos+1)%line.tracks.size();
-            if (!checkCollision()) map_pos = current;
-        }
-     //   return 0;
+        }*/
 
-    }
 
-    public ArrayList<CPosition> checkLength () {
-        ArrayList<CPosition> Length = new ArrayList<>();
-        for (int i = 0; i < length; i++) {
-            int x = (map_pos - i+line.tracks.size())%line.tracks.size();
-            Length.add(line.tracks.get(x).pos);
+        boolean b = true;
+        if (isWorking == 0) {
+            if(map_pos == line.tracks.size()-2){
+                abstractTrams.remove(this);
+            }
+            b = false;
+            for (CRepairTram r: repairTrams){
+                if (r.map_pos == map_pos + 1 || r.map_pos == map_pos + 2) b = true;
+                if (b) return true;
+            }
         }
-    return Length;
-    }
-    public ArrayList<CPosition> checkLength1 () {
-        ArrayList<CPosition> Length = new ArrayList<>();
-        for (int i = 0; i <= length; i++) {
-            int x = (map_pos - i+line.tracks.size())%line.tracks.size();
-            Length.add(line.tracks.get(x).pos);
+        for(CTrafficLights lights: trafficLights){
+            if(!lights.checkifcango(headpositionaftermove())) b = false;
         }
-        return Length;
+        for(CPlatform platform: platforms){
+            if(!platform.checkifcango(headpositionaftermove(),this)) b = false;
+        }
+        if(b) return true;
+        return false;
     }
+    @Override
     public boolean checkCollision(){
-        for(CTram t: trams){
+        for(CAbstractTram t: abstractTrams){
             if(t == this) continue;
-            for(CPosition p: t.checkLength1()){
+            for(CPosition p: t.listtodraw()){
                 CPosition myPosition = line.tracks.get(map_pos).pos;
                 if(myPosition.x == p.x && myPosition.y == p.y) return false;
             }
         }
         return true;
-    }
-    public void start(){
-        drive = 1;
-    }
-    public void stop(){
-        drive = 0;
     }
 }

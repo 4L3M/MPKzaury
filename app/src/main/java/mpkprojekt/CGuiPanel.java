@@ -19,9 +19,11 @@ public class CGuiPanel extends JPanel {
     int maxr = 0;   // max row
     public ArrayList <Objects> objects = null;
     ArrayList <CTram> tramArrayList = null;
-    public CGuiPanel(ArrayList <CTram> tramArrayList){
+    ArrayList <CAbstractTram> abstractTrams = null;
+    public CGuiPanel(ArrayList <CTram> tramArrayList, ArrayList<CAbstractTram> abstractTrams){
         this.setPreferredSize(new Dimension(width,heigth));
         this.tramArrayList = tramArrayList;
+        this.abstractTrams = abstractTrams;
         readMap();
     }
     public void readMap(){
@@ -40,25 +42,17 @@ public class CGuiPanel extends JPanel {
         for(String s: list){
             if(maxc < s.length()) maxc = s.length();
         }
-      //  System.out.println(maxc+"\n"+maxr);
         for(int i = 0; i<maxr;i++){
             for (int j = 0; j<maxc;j++){
                 array[i][j] = list.get(i).charAt(j);
             }
         }
-       /* for(int i = 0; i<maxr;i++){
-            for (int j = 0; j<maxc;j++){
-                System.out.print(array[i][j]);
-            }
-            System.out.println();
-        }*/
-
 
 
     }
     public void paint(Graphics G){
         Graphics2D G2D = (Graphics2D) G;
-       int x = 10, y = 10;
+        int x = 10, y = 10;
         for(int i = 0; i<maxr;i++){
             for (int j = 0; j<maxc;j++){
                 if(array[i][j]=='B'||array[i][j]=='A'||array[i][j]=='1'||array[i][j]=='0'|| array[i][j]=='4'|| array[i][j]=='5'|| array[i][j]=='7'|| array[i][j]=='8'){
@@ -74,18 +68,9 @@ public class CGuiPanel extends JPanel {
         for (Objects o: objects){
            o.drawMe(G2D);
         }
-        for(CTram t: tramArrayList){
-            t.drawMe(G2D);
+        for(CAbstractTram a: abstractTrams){
+            a.drawMe(G2D);
         }
-       /* G2D.setColor(Color.PINK);
-        G2D.fillRect(10,10,100,100);
-        G2D.setColor(Color.BLUE);
-        G2D.fillRect(110,10,100,100);
-        G2D.setColor(Color.ORANGE);
-        G2D.fillRect(110,110,100,100);
-        G2D.setColor(Color.GREEN);
-        G2D.fillRect(10,110,100,100);*/
-
 
     }
 

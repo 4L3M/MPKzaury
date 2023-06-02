@@ -8,8 +8,8 @@ import java.util.ArrayList;
 public class CJFrame extends JFrame {
     CGuiPanel guiPanel ;
 
-    public CJFrame(ArrayList <CTram> tramArrayList) {
-        guiPanel = new CGuiPanel(tramArrayList);
+    public CJFrame(ArrayList <CTram> tramArrayList, ArrayList <CAbstractTram> abstractTrams) {
+        guiPanel = new CGuiPanel(tramArrayList, abstractTrams);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
         this.add(guiPanel);
