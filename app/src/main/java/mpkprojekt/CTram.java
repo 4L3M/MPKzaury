@@ -5,68 +5,62 @@ package mpkprojekt;
 import java.awt.*;
 import java.util.ArrayList;
 public class CTram extends CAbstractTram implements Objects{
-
     int isWorking;
-    Double delay;
-    int timewaiting=0;
+    int timeWaiting =0;
     ArrayList<CTrafficLights> trafficLights;
     ArrayList<CPlatform> platforms;
     ArrayList<CRepairTram> repairTrams;
-    public CTram( int length, CLine line, int map_pos, ArrayList<CAbstractTram> abstractTrams, ArrayList<CTrafficLights> trafficLights, ArrayList<CPlatform> platforms,ArrayList<CRepairTram> repairTrams) {
-        super(length, map_pos, line, abstractTrams);
+    CClock tramClock = new CClock(0,0,0);
+    public CTram( int length, CLine line, ArrayList<CAbstractTram> abstractTrams, ArrayList<CTrafficLights> trafficLights,
+                  ArrayList<CPlatform> platforms,ArrayList<CRepairTram> repairTrams) {
+        super(length,0, line, abstractTrams);
         this.trafficLights=trafficLights;
         isWorking = 1;
-        delay = 0.0;
         this.platforms=platforms;
         this.repairTrams = repairTrams;
     }
 
     @Override
     public void drawMe(Graphics2D G2D) {
-        for(CPosition p: listtodraw()){
+        for(CPosition p: listToDraw()){
             G2D.setColor(Color.BLUE);
+            if(isWorking==0) G2D.setColor(Color.pink);
             G2D.fillRect(p.x * 10,p.y * 10,10,10);
         }
     }
     @Override
     public boolean checkIfCanGo(){
-      /*  if(isWorking==1) {
-            if (map_pos == 30) {
-                this.isWorking = 0;
-                this.timewaiting = map_pos;
-            }
-        }*/
-
-
         boolean b = true;
         if (isWorking == 0) {
-            if(map_pos == line.tracks.size()-2){
-                abstractTrams.remove(this);
-            }
-            b = false;
-            for (CRepairTram r: repairTrams){
-                if (r.map_pos == map_pos + 1 || r.map_pos == map_pos + 2) b = true;
-                if (b) return true;
-            }
-        }
-        for(CTrafficLights lights: trafficLights){
-            if(!lights.checkifcango(headpositionaftermove())) b = false;
+            return false;
         }
         for(CPlatform platform: platforms){
             if(!platform.checkifcango(headpositionaftermove(),this)) b = false;
+        }
+        for(CTrafficLights lights: trafficLights){
+            if(!lights.checkIfCanGo(headpositionaftermove())) b = false;
         }
         if(b) return true;
         return false;
     }
     @Override
     public boolean checkCollision(){
+        //if(isWorking == 0) return true;
         for(CAbstractTram t: abstractTrams){
             if(t == this) continue;
-            for(CPosition p: t.listtodraw()){
+            for(CPosition p: t.listToCheckColision()){
                 CPosition myPosition = line.tracks.get(map_pos).pos;
-                if(myPosition.x == p.x && myPosition.y == p.y) return false;
+                if(myPosition.x == p.x && myPosition.y == p.y){
+                    tramClock.tikTak();
+                    return false;
+                }
             }
         }
         return true;
+    }
+    @Override
+    public void saveToStats() {
+        line.delay += tramClock.minute + tramClock.hour * 60 + tramClock.second / 60;
+        line.countTrams++;
     }
 }

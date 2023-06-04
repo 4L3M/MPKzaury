@@ -6,8 +6,8 @@ import java.util.ArrayList;
 public class CPlatform extends CStop implements Objects{
     ArrayList <CPosition> platformPositions = new ArrayList<>();
     int counter = 0;
-    public CPlatform(String position, String controlPosition,  ArrayList<CAbstractTram> abstractTrams) {
-        super(controlPosition, controlPosition,  abstractTrams);
+    public CPlatform(String position, String controlPosition/*,  ArrayList<CAbstractTram> abstractTrams*/) {
+        super(controlPosition, controlPosition/*,  abstractTrams*/);
         String [] platform = position.split(";");
         for(String s: platform){
            CPosition platformPos = new CPosition(s);

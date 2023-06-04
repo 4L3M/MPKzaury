@@ -1,13 +1,12 @@
 package mpkprojekt;
-
 import java.awt.*;
 import java.util.ArrayList;
 
 public class CTrafficLights extends CStop implements Objects{
     boolean colour = false;
     int offSetTime = 0;
-    public CTrafficLights(String position, String controlPosition, ArrayList<CTram> tramsList, int offSetTime, ArrayList<CAbstractTram> abstractTrams) {
-        super(position, controlPosition,  abstractTrams);
+    public CTrafficLights(String position, String controlPosition, int offSetTime/*, ArrayList<CAbstractTram> abstractTrams*/) {
+        super(position, controlPosition/*,  abstractTrams*/);
         this.offSetTime = offSetTime;
     }
     public void drawMe (Graphics2D G2D){
@@ -19,19 +18,15 @@ public class CTrafficLights extends CStop implements Objects{
             G2D.fillRect(pos.x * 10,pos.y * 10,10,10);
         }
     }
-
-    boolean checkifcango(CPosition position){
+    boolean checkIfCanGo(CPosition position){
         if((position.x==controlPos.x)&&(position.y==controlPos.y)){
             if (colour) return true;
-            //System.out.println(position.x+" "+position.y+ " "+controlPos.x+" "+controlPos.y);
             return false;
         }
         return true;
-
     }
-
-    public void changetime(int currentTime) {
-        if ((currentTime + offSetTime) % 60 < 59) {
+    public void changeTime(int currentTime) {
+        if ((currentTime + offSetTime) % 60 < 30) {
             colour = false;
         } else {
             colour = true;

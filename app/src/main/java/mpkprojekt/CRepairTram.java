@@ -12,8 +12,12 @@ public class CRepairTram extends CAbstractTram implements Objects {
     }
     @Override
     public void drawMe(Graphics2D G2D) {
-        for(CPosition p: listtodraw()){
-            G2D.setColor(Color.yellow);
+        G2D.setColor(Color.ORANGE);
+        CPosition p = listToDraw().get(0);
+        G2D.fillRect(p.x * 10,p.y * 10,10,10);
+        G2D.setColor(Color.BLUE);
+        for(int i = 1; i < listToDraw().size(); i++){
+            p= listToDraw().get(i);
             G2D.fillRect(p.x * 10,p.y * 10,10,10);
         }
     }
@@ -21,12 +25,9 @@ public class CRepairTram extends CAbstractTram implements Objects {
     public boolean checkIfCanGo(){
         boolean b = true;
         for(CTrafficLights lights: trafficLights){
-            if(!lights.checkifcango(headpositionaftermove())) b = false;
+            if(!lights.checkIfCanGo(headpositionaftermove())) b = false;
         }
-
-
         if(b) return true;
         return false;
     }
-
 }

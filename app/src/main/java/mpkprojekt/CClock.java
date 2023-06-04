@@ -33,8 +33,17 @@ public class CClock {
         currentTime++;
         }
     }
-
    public boolean isTimeEqual(String departureTime){
-       return departureTime.compareTo(hour + ":" + minute + ":" + second) == 0;
+      int hC, mC, sC;
+      String [] C = departureTime.split(":");
+      hC = Integer.parseInt(C[0]);
+      mC = Integer.parseInt(C[1]);
+      sC = Integer.parseInt(C[2]);
+
+      if(hC > hour) return false;
+      if(mC > minute) return false;
+      if(sC > second) return false;
+
+      return true;
    }
 }

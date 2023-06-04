@@ -7,8 +7,12 @@ import java.util.ArrayList;
 public class CLine implements Objects {
 
     public ArrayList <CTrack> tracks = new ArrayList<>();
-
-    public CLine (String line){
+    int failure = 0;
+    int lineNumber = 0;
+    float delay = 0;
+    int countTrams = 0;
+    public CLine ( int lineNumber, String line){
+        this.lineNumber = lineNumber;
        String [] lines = line.split(";"); //zwraca tablice
         for (String s: lines){
             CTrack track = new CTrack(s);
