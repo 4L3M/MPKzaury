@@ -17,7 +17,7 @@ CPosition pos;
 
     @Override
     public void drawMe(Graphics2D G2D) {
-        G2D.setColor(Color.darkGray.brighter().brighter());
+        G2D.setColor(Color.gray);
         G2D.fillRect(pos.x * 10, pos.y * 10,10,10);
     }
 }

@@ -4,6 +4,8 @@ package mpkprojekt;
 
 import java.awt.*;
 import java.util.ArrayList;
+import java.util.Random;
+
 public class CTram extends CAbstractTram implements Objects{
     int isWorking;
     int timeWaiting =0;
@@ -11,6 +13,7 @@ public class CTram extends CAbstractTram implements Objects{
     ArrayList<CPlatform> platforms;
     ArrayList<CRepairTram> repairTrams;
     CClock tramClock = new CClock(0,0,0);
+    int randColour;
     public CTram( int length, CLine line, ArrayList<CAbstractTram> abstractTrams, ArrayList<CTrafficLights> trafficLights,
                   ArrayList<CPlatform> platforms,ArrayList<CRepairTram> repairTrams) {
         super(length,0, line, abstractTrams);
@@ -18,12 +21,15 @@ public class CTram extends CAbstractTram implements Objects{
         isWorking = 1;
         this.platforms=platforms;
         this.repairTrams = repairTrams;
+        Random rand = new Random();
+        this.randColour = rand.nextInt(2);
     }
 
     @Override
     public void drawMe(Graphics2D G2D) {
+        G2D.setColor(Color.cyan);
+        if(randColour == 0)  G2D.setColor(Color.BLUE);
         for(CPosition p: listToDraw()){
-            G2D.setColor(Color.BLUE);
             if(isWorking==0) G2D.setColor(Color.pink);
             G2D.fillRect(p.x * 10,p.y * 10,10,10);
         }

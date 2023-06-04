@@ -16,7 +16,7 @@ public class CPlatform extends CStop implements Objects{
     }
 
     public void drawMe (Graphics2D G2D) {
-        G2D.setColor(Color.orange);
+        G2D.setColor(Color.yellow.darker());
         for (CPosition p : platformPositions) {
             G2D.fillRect(p.x * 10, p.y * 10, 10, 10);
         }

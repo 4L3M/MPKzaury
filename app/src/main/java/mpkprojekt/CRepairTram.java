@@ -6,13 +6,14 @@ import java.util.ArrayList;
 public class CRepairTram extends CAbstractTram implements Objects {
 
     ArrayList<CTrafficLights> trafficLights;
+
     public CRepairTram( int length, CLine line, int map_pos, ArrayList<CAbstractTram> abstractTrams, ArrayList<CTrafficLights> trafficLights) {
         super(length, map_pos, line, abstractTrams);
         this.trafficLights=trafficLights;
     }
     @Override
     public void drawMe(Graphics2D G2D) {
-        G2D.setColor(Color.ORANGE);
+        G2D.setColor(Color.RED);
         CPosition p = listToDraw().get(0);
         G2D.fillRect(p.x * 10,p.y * 10,10,10);
         G2D.setColor(Color.BLUE);

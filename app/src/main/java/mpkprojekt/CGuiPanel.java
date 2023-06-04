@@ -56,7 +56,9 @@ public class CGuiPanel extends JPanel {
                if(array[i][j]=='B'||array[i][j]=='A'||array[i][j]=='1'||array[i][j]=='0'|| array[i][j]=='4'|| array[i][j]=='5'|| array[i][j]=='7'|| array[i][j]=='8'){
                     G2D.setColor(Color.orange.darker().darker());}
                 if(array[i][j]==' '){
-                    G2D.setColor(Color.GREEN.darker());}
+                    G2D.setColor(Color.GREEN.brighter());}
+                if(array[i][j]=='W'){
+                    G2D.setColor(Color.cyan.darker());}
                 if (array[i][j]=='T'){
                     G2D.setColor(Color.BLUE);}
                 G2D.fillRect(10+j*10,10+i*10,10,10);

@@ -81,7 +81,7 @@ public class CMap {
 
         for(String s: lightFromFile){
             String [] singleLight = s.split(";");
-            CTrafficLights trafficLight = new CTrafficLights(singleLight[0],singleLight[1],0/*, abstractTrams*/);
+            CTrafficLights trafficLight = new CTrafficLights(singleLight[0],singleLight[1],Integer.valueOf(singleLight[2]));
 
             obj.add(trafficLight);
             trafficLights.add(trafficLight);
