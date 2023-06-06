@@ -29,10 +29,13 @@ public class CTram extends CAbstractTram implements Objects{
     public void drawMe(Graphics2D G2D) {
         G2D.setColor(Color.cyan);
         if(randColour == 0)  G2D.setColor(Color.BLUE);
+
         for(CPosition p: listToDraw()){
-            if(isWorking==0) G2D.setColor(Color.pink);
+            if(isWorking==0) G2D.setColor(Color.red.darker());
             G2D.fillRect(p.x * 10,p.y * 10,10,10);
         }
+        G2D.setColor(Color.BLACK);
+        G2D.drawString(String.valueOf(line.lineNumber),line.tracks.get(map_pos).pos.x*10 , line.tracks.get(map_pos).pos.y*10+10);
     }
     @Override
     public boolean checkIfCanGo(){

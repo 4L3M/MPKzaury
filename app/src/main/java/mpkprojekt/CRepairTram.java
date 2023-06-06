@@ -13,7 +13,7 @@ public class CRepairTram extends CAbstractTram implements Objects {
     }
     @Override
     public void drawMe(Graphics2D G2D) {
-        G2D.setColor(Color.RED);
+        G2D.setColor(Color.black);
         CPosition p = listToDraw().get(0);
         G2D.fillRect(p.x * 10,p.y * 10,10,10);
         G2D.setColor(Color.BLUE);

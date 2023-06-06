@@ -26,10 +26,11 @@ public class CTrafficLights extends CStop implements Objects{
         return true;
     }
     public void changeTime(int currentTime) {
-        if ((currentTime + offSetTime) % 60 < 30) {
+        /*if ((currentTime + offSetTime) % 60 < 30) {
             colour = false;
         } else {
             colour = true;
-        }
+        }*/
+        if(((currentTime+offSetTime*4)%(60*4))<(15*4)){colour=true;}else{colour=false;}
     }
 }

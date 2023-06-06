@@ -50,7 +50,7 @@ public class CSimulator {
             if(t.isWorking==0)continue;
             if(t.map_pos + 2 >= t.line.tracks.size()) continue;
             Random rand = new Random();
-            int i = rand.nextInt(2000);
+            int i = rand.nextInt(10000);
             if(i == 7){
                 t.isWorking = 0;
                 t.line.failure++;
@@ -89,7 +89,7 @@ class CTimer implements ActionListener {
            String lineD = "";
             for(CLine l: simtimer.map.lines){
                 lineF += l.lineNumber+":"+l.failure+";";
-                lineD += l.lineNumber+"delay:"+simtimer.statistics.averageDelay(l.delay, l.countTrams)+";";
+                lineD += l.lineNumber+":"+simtimer.statistics.averageDelay(l.delay, l.countTrams)+";";
             }
             simtimer.statistics.failureStatistics.add(lineF);
             simtimer.statistics.delayStat.add(lineD);

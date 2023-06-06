@@ -1,0 +1,4 @@
+2delay:NaN;3delay:NaN;4delay:NaN;5delay:NaN;6delay:NaN;7delay:NaN;10delay:NaN;11delay:NaN;15delay:NaN;
+2delay:NaN;3delay:NaN;4delay:0.0;5delay:NaN;6delay:NaN;7delay:NaN;10delay:NaN;11delay:NaN;15delay:0.5;
+2delay:NaN;3delay:NaN;4delay:0.0;5delay:NaN;6delay:NaN;7delay:NaN;10delay:NaN;11delay:NaN;15delay:0.5;
+2delay:NaN;3delay:NaN;4delay:0.7777778;5delay:NaN;6delay:NaN;7delay:NaN;10delay:NaN;11delay:NaN;15delay:1.7142857;

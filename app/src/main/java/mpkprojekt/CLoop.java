@@ -16,9 +16,9 @@ public class CLoop extends CPlatform{
     public CLoop(String position, String controlPosition,  CLine line,ArrayList<CAbstractTram> abstractTrams,
                  ArrayList<CTrafficLights> trafficLights, CClock clock, ArrayList<CPlatform> platforms, ArrayList <CRepairTram> repairTrams,
                  ArrayList <String> schedule, ArrayList<CTram> trams) {
-        super(position, controlPosition/*,  abstractTrams*/);
+        super(position, controlPosition);
         this.line = line;
-        this.trafficLights=trafficLights;
+        this.trafficLights = trafficLights;
         this.clock = clock;
         this.platforms = platforms;
         this.repairTrams = repairTrams;
@@ -31,7 +31,7 @@ public class CLoop extends CPlatform{
         if(clock.isTimeEqual(schedule.get(0))){
             schedule.remove(0);
             Random random = new Random();
-            tram = new CTram (random.nextInt(2)+3,line,abstractTrams,trafficLights,platforms,repairTrams);
+            tram = new CTram (random.nextInt(2)+2,line,abstractTrams,trafficLights,platforms,repairTrams);
             abstractTrams.add(tram);
             trams.add(tram);
         }
