@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="105a7afc-3188-4d18-9dfb-130dcd2ee091" name="Changes" comment="Zsynchronizowane światła">
+    <list default="true" id="105a7afc-3188-4d18-9dfb-130dcd2ee091" name="Changes" comment="Wersja prezentacyjna">
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -15,21 +15,29 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Delay.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Delay.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Failures.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Failures.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lines" beforeDir="false" afterPath="$PROJECT_DIR$/Lines" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Schedule" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CRepairTram.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CRepairTram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Delay.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/Delay.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Failures.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/Failures.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Lines" beforeDir="false" afterPath="$PROJECT_DIR$/app/Lines" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Schedule" beforeDir="false" afterPath="$PROJECT_DIR$/app/Schedule" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/TestMap" beforeDir="false" afterPath="$PROJECT_DIR$/app/TestMap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CGuiPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CGuiPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CJFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CJFrame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CSimulator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CTrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CTrack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CTram.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/mpkprojekt/CTram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/distributions/app.tar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/distributions/app.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/distributions/app.zip" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/distributions/app.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/libs/app.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/libs/app.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CRepairTram.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CRepairTram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CClock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CGuiPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CGuiPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CJFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CTrack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CTrafficLights.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CTrafficLights.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CTram.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mpkprojekt/CTram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/stop.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/stop.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/trafficLights" beforeDir="false" afterPath="$PROJECT_DIR$/app/trafficLights" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stop.txt" beforeDir="false" afterPath="$PROJECT_DIR$/stop.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trafficLights" beforeDir="false" afterPath="$PROJECT_DIR$/trafficLights" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,22 +84,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/MPKzaury",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/MouseListener&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\MPKzaury" />
@@ -154,7 +162,8 @@
       <workItem from="1685898416958" duration="13238000" />
       <workItem from="1686006755899" duration="2032000" />
       <workItem from="1686033442431" duration="5734000" />
-      <workItem from="1686084856700" duration="956000" />
+      <workItem from="1686084856700" duration="9582000" />
+      <workItem from="1686140023841" duration="1707000" />
     </task>
     <task id="LOCAL-00001" summary="Prawie pełna funkcjonalność kodu">
       <created>1685221972155</created>
@@ -219,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685913532603</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Wersja prezentacyjna">
+      <created>1686086117654</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686086117654</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,8 +247,8 @@
     <MESSAGE value="Do poprawy" />
     <MESSAGE value="Do poprawy2" />
     <MESSAGE value="z rozkładem jazdy" />
-    <MESSAGE value="Wersja prezentacyjna" />
     <MESSAGE value="Zsynchronizowane światła" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zsynchronizowane światła" />
+    <MESSAGE value="Wersja prezentacyjna" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wersja prezentacyjna" />
   </component>
 </project>

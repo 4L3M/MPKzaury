@@ -19,9 +19,9 @@ public class CSimulator {
     CMap map = new CMap(obj,clock,abstractTrams,repairTrams,trams);
 
     public void Sim (){
-        jFrame = new CJFrame(abstractTrams);
+        jFrame = new CJFrame(abstractTrams, clock);
         jFrame.guiPanel.objects = obj;
-        Timer timer = new Timer(10,new CTimer(this));
+        Timer timer = new Timer(1,new CTimer(this));
         timer.start();
         map.createMap();
   }
@@ -50,7 +50,7 @@ public class CSimulator {
             if(t.isWorking==0)continue;
             if(t.map_pos + 2 >= t.line.tracks.size()) continue;
             Random rand = new Random();
-            int i = rand.nextInt(10000);
+            int i = rand.nextInt(5000);
             if(i == 7){
                 t.isWorking = 0;
                 t.line.failure++;
@@ -67,7 +67,7 @@ class CTimer implements ActionListener {
     }
     @Override
     public void actionPerformed(ActionEvent e) {
-        System.out.println(simtimer.clock.getTime());
+//        System.out.println(simtimer.clock.getTime());
 //        System.out.println(currentTime);
         for(int i = simtimer.abstractTrams.size()-1 ;i>=0;i-- ){
             CAbstractTram t = simtimer.abstractTrams.get(i);

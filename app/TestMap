@@ -1,44 +1,44 @@
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-B                                                  BA                                                                                           B
-B                                                  BA                                                                                           B
-B                                                  BAAAAAAAA                                                                                    B
-B                                                  BBBBBBBBA                                                                                    B
-B                                                         BA                                                                                    B
-B                                                         BA                                                                                    B
-B                                                         BA                                                                                    B
-B                                                         BA                                                                                    B
-B                                                         BA                                                                                    B
-BWWWWWWWWWW                                               BA                                                                                    B
-BWWWWWWWWWWWWWW                                           BAAAAAAAAAAA                                                                          B
-B       WWWWWWWWW                                         BBBBBBBBBBBA                                                                          B
-B           WWWWWWWWWWWW                                            BA                                                                          B
-B            WWWWWWWWWWWWWWWWWWWWWWW                                BA                                                                          B
-B                 WWWWWWWWWWWWWWWWWWWWWWWWW                         BA                                                                          B
-B     01                   WWWWWWWWWWWWWWWWWWWWWW                   BA                                                                          B
-B     01                       WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWBAWWWWWWWWWWWWWWWWWWWWWWWWWWWW                                              B
-B     01                              WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWBAWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW                                          B
-B     01                                            1111111111111111BAAAAAAAAAAAAAAAAAA      WWWWWWWWWWWWWWWWW                                  B
-B     01                                     11111111000000000000000BBBBBBBBBBBBBBBBBBAA           WWWWWWWWWWW                                  B
-B     011111111111111                  111111100000000              BA               BBAA              WWWWWWWW 11111111111                     B
+B     WWWWWWWWWWWWWWW                                                                                                                           B
+B       WWWWWWWWWWWWWWW                                                                                                                         B
+B         WWWWWWWWWWWWWWWW                         BAAAAAAAA                                                                                    B
+B            WWWWWWWWWWWWWWWWWWWW                  BBBBBBBBA                                                                                    B
+B            WWWWWWWWWWWWWWWWWWWWW                        BA                                                                                    B
+B            WWWWW WWWWWWWWWWWWWWWWWWW                    BA                                                                                    B
+B            WWWW    WWWWWWWWWWWWWWWWWWWWWW               BA                                                                                    B
+B            WWWWW      WWWWWWWWWWWWWWWWWWWW              BA                                                                                    B
+B            WWWWW         WWWWWWWWWWWWWWWWWWW            BA                                                                                    B
+B              WWW            WWWWWWWWWWWWWWWWW           BA                                                                                    B
+B               WWW              WWWWWWWWWWWWWWWW         BAAAAAAAAAAA                                                                          B
+B               WWWW              WWWWWWWWWWWWWWWWWW      BBBBBBBBBBBA                                                                          B
+B                WWWW               WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWBAWWWWWWWWWWWWWWWWWWWWWWWWWWW                                               B
+B                WWWW                   WWWWWWWWWWWWWWWWWWWWWWWWWWWWBAWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW                                            B
+B                 WWWW                      WWWWWWWWWWWWWWWWWWWWWWWWBAWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW                                        B
+B     01          WWWW                           WWWWWWWWWWWWWWWWWWWBAWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW                                       B
+B     01          WWWWW                                             BA                         WWWWWWWWWWWWWW                                   B
+B     01            WWWW                                            BA                            WWWWWWWWWWWW                                  B
+B     01           WWWW                             1111111111111111BAAAAAAAAAAAAAAAAAA           WWWWWWWWWWWW                                  B
+B     01           WWWW                      11111111000000000000000BBBBBBBBBBBBBBBBBBAA           WWWWWWWWWWWWWWW                              B
+B     011111111111111WWW               111111100000000              BA               BBAA              WWWWWWWWW11111111111                     B
 B     0000000000000011111111           10000000                     BAAAA             BBA         11111111111111100000000011111111              B
-B                  0000000011111111111110                           BBBBA              BA         1000000000000000       0000000001             B
-B                         000000000001000                              BA              BAAAAAAA11110           WWWWWWWWWWW       011111111111111B
-B                                   01                                 BAAA            BBBBBBBB10000               WWWWWWWWWW    000000000000000B
-B                                   01                                 BBBA                    10                   WWWWWWWWWWWWW               B
-B                                   01                                   BA                    10                         WWWWWWWWWWWWWWWWWWWWWWB
-B                                   01                                   BAAAAA                10                             WWWWWWWWWWWWWWWWWWB
-B                                   01                                   BBBBBA                10                                               B
-B                               55550111                                     BA                10                                               B
-B                              5544000111                                    BA                10                                               B
-B                            55544    000111                                 BA                10                                               B
-B                            5444       000111111111111111                   BA    111111111111101111111                                        B
-B                           554           000000000000000111                 BA 111100000000000000000001                                        B
-B                          5544                         00011111111111111111111110000          BA     0111111                                   B
-B                         5544                            000000000000000000000000             BA     0000001                                   B
-B                        5544                                                BA                BA          01                                   B
-B                       5544                                                 BAAAAAAA          BA          011111111                            B
-BBBBBBBBBBBBBBBBB       544                                                  BBBBBBBA          BA          000000001                            B
-BAAAAAAAAAAAAAAAB       54                                                         BA          BA                 01                            B
+B                  0000000011111111111110                           BBBBA              BA         1000000000000000WWWWWWW0000000001             B
+B                   WWWW  000000000001000                              BA              BAAAAAAA11110           WWWWWWWWWWW       0111111111     B
+B                     WWW           01                                 BAAA            BBBBBBBB10000            WWWWWWWWWWWWW    0000000000     B
+B                     WWWW          01                                 BBBA                    10                 WWWWWWWWWWWWWWW               B
+B                     WWWWW         01                                   BA                    10               WWWWWWWWWWWWWWWWWWWWWWW         B
+B                      WWWW         01                                   BAAAAA                10               WWWW    WWWWWWWWWWWWWWWWWWW     B
+B                        WWW        01                                   BBBBBA                10             WWWWW         WWWWWWWWWWWWWWWWWWWWB
+B                        WWWW   55550111                                     BA                10            WWWW                WWWWWWWWWWWWWWWB
+B                        WWWWWW5544000111                                    BA                10           WWWW                       WWWWWWWWWB
+B                          WW55544    000111                                 BA                10           WWWW                             WWWB
+B                           W5444WWW    000111111111111111                   BA    111111111111101111111  WWWWW                                 B
+B                           554 WWWWWWW   000000000000000111                 BA 111100000000000000000001 WWWWW                                  B
+B                          5544     WWWW                00011111111111111111111110000          BA     0111111                                   B
+B                         5544      WWWWWWWWWWWWWWWWWWW   000000000000000000000000      WWWWWWWBAWWWWW0000001                                   B
+B                        5544          WWWWWWWWWWWWWWWWWWW                   BAWWWWWWWWWWWWWWWWBAWWWWWWW   01                                   B
+B                       5544                      WWWWWWWWWWWWWWWWWWWWWWWWWWWBAAAAAAAWWWW      BA          011111111                            B
+B     BBBBBBBBBBB       544                           WWWWWWWWWWWWWWWWWWWWWWWBBBBBBBAWW        BA          000000001                            B
+B      AAAAAAAAAB       54                                                         BA          BA                 01                            B
 B              AB       54                                                         BA          BA                 01                            B
 B              AB       54                                                         BAA         BA                 01                            B
 B              ABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB                                    BBAA        BA                 01                            B
@@ -46,8 +46,8 @@ B              AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB                                 
 B                       54                   AB                                      BBA       BA                 00000000000000001             B
 B                       54                   ABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBA                                01             B
 B                      554                   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                                01             B
-B                     5544                                                            87       01                                011111111111111B
-B                    5544                                                             87       01                                000000000000000B
+B                     5544                                                            87       01                                01111111111    B
+B                    5544                                                             87       01                                00000000000    B
 B                    544                                                              87       01                                               B
 B                    54                                                        888888887       0111                                             B
 B                    54                                                 8888888877777777       0001                                             B
@@ -65,8 +65,8 @@ B  54                                                   87                      
 B  54                                                   87                                                 00011111111                          B
 B  54                                                   87                                                   000000001                          B
 B  54                                                   87                                                          01                          B
-B  54                                                   87                                                          0111111111                  B
-B  54                                                   87                                                          0000000001                  B
-B5554                                                   87                                                                  011111111           B
-B4444                                                   87                                                                  000000001           B
+B  54                                                                                                               0111111111                  B
+B  54                                                                                                               0000000001                  B
+B                                                                                                                                               B
+B                                                                                                                                               B
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB

@@ -24,7 +24,7 @@ public class CClock {
             if(minute >= 60){
                 minute %= 60;
                 hour++;
-                if(hour > 24){
+                if(hour > 23){
                     hour = 0;
                 }
             }

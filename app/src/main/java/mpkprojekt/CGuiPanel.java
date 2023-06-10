@@ -18,10 +18,12 @@ public class CGuiPanel extends JPanel {
     private int maxc = 0;   // max column
     private int maxr = 0;   // max row
     public ArrayList <Objects> objects = null;
+    CClock clock;
     ArrayList <CAbstractTram> abstractTrams = null;
-    public CGuiPanel( ArrayList<CAbstractTram> abstractTrams){
+    public CGuiPanel( ArrayList<CAbstractTram> abstractTrams,CClock clock){
         this.setPreferredSize(new Dimension(width,heigth));
         this.abstractTrams = abstractTrams;
+        this.clock = clock;
         readMap();
     }
    private void readMap(){
@@ -64,11 +66,19 @@ public class CGuiPanel extends JPanel {
                 G2D.fillRect(10+j*10,10+i*10,10,10);
             }
         }
+
         for (Objects o: objects){
            o.drawMe(G2D);
         }
         for(CAbstractTram a: abstractTrams){
             a.drawMe(G2D);
         }
+        G2D.setColor(Color.BLACK);
+        G2D.fillRect(1150,50,100,50);
+        G2D.setColor(Color.white);
+        G2D.fillRect(1155,55,90,40);
+        G2D.setColor(Color.black);
+        G2D.setFont(new Font("Arial",Font.BOLD,16));
+        G2D.drawString(clock.getTime(),1170,80);
     }
     }
