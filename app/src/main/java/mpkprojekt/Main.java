@@ -1,11 +1,8 @@
 package mpkprojekt;
 
-import java.util.ArrayList;
-
-public class Main {
+public class Main { // klasa main
     public static void main(String[] args) {
     CSimulator simulator = new CSimulator();
     simulator.Sim();
-
     }
 }

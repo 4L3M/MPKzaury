@@ -8,16 +8,15 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class CMap {
-    ArrayList<CTrafficLights> trafficLights = new ArrayList<>();
-    ArrayList<CPlatform> platforms = new ArrayList<>();
-    ArrayList<CLoop> loops = new ArrayList<>();
-    ArrayList <CLine> lines = new ArrayList<>();
-    ArrayList <Objects> obj;
-    CClock clock;
-    ArrayList <CAbstractTram> abstractTrams;
-    ArrayList <CRepairTram> repairTrams;
-    ArrayList <CTram> trams;
-
+    ArrayList<CTrafficLights> trafficLights = new ArrayList<>(); // lista swiatel
+    ArrayList<CPlatform> platforms = new ArrayList<>();// lista przystankow
+    ArrayList<CLoop> loops = new ArrayList<>(); // lista petli
+    ArrayList <CLine> lines = new ArrayList<>();// lista lin
+    ArrayList <Objects> obj; // lista obiekow do rysowania
+    CClock clock; // zegra
+    ArrayList <CAbstractTram> abstractTrams;// lista tramwajow wszytskich
+    ArrayList <CRepairTram> repairTrams; // lista tramwajow naprawczych
+    ArrayList <CTram> trams; // lista tramwajow
 
     public CMap (ArrayList<Objects> obj, CClock clock, ArrayList <CAbstractTram> abstractTrams,
                  ArrayList <CRepairTram> repairTrams, ArrayList <CTram> trams){
@@ -28,6 +27,7 @@ public class CMap {
         this.trams = trams;
     }
     public void createLines(){
+        // wczytuje dane odnosnie lin i laduje nimi liste lin
         File file = new File("Lines");
         Scanner scanner = null;
         try {
@@ -45,6 +45,7 @@ public class CMap {
         }
     }
     public void createStop(){
+        // wczytuje dane dotyczace przytsankow i laduje nimi liste przystankow
         ArrayList<String> stopsFromFile = new ArrayList<>();
         File file = new File("stop.txt");
         Scanner scanner = null;
@@ -66,6 +67,7 @@ public class CMap {
         }
     }
     public void createLights(){
+        // wczytuje dane dotyczace swaitel i laduje nimi liste swiatel
         ArrayList<String> lightFromFile = new ArrayList<>();
         File file = new File("trafficLights");
         Scanner scanner = null;
@@ -78,18 +80,16 @@ public class CMap {
         while (scanner.hasNextLine()){
             lightFromFile.add(scanner.nextLine());
         }
-
         for(String s: lightFromFile){
             String [] singleLight = s.split(";");
             CTrafficLights trafficLight = new CTrafficLights(singleLight[0],singleLight[1],Integer.valueOf(singleLight[2]));
-
             obj.add(trafficLight);
             trafficLights.add(trafficLight);
         }
     }
     public void createLoops (){
+        // wczytuje dane dotyczace petli i laduje nimi liste petli
         Map<Integer,ArrayList<String>> allSchedules = new HashMap<>();
-
         Scanner scanner = null;
         File file = new File("Schedule");
         try {
