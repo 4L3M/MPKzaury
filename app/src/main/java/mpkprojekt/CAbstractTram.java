@@ -59,7 +59,7 @@ public abstract class CAbstractTram implements Objects {
     public ArrayList<CPosition> listToCheckColision() {
         // zwraca liste pozycji, zajetych przez aktualny trmawaj
         // dziala podobnie do listToDraw
-        // dodatkowo zwraca jeszcze jedna pozycje w tyl, aby trawaje utrzymywaly jedna pozycje przerwy
+        // dodatkowo zwraca jeszcze jedna pozycje w tyl, aby trawaje utrzymywaly jedna pozycji przerwy
         ArrayList<CPosition> positions = new ArrayList<>();
         for (int i = 0; i <= length; i++) {
             int x = (map_pos - i+line.tracks.size())%line.tracks.size();
@@ -67,4 +67,6 @@ public abstract class CAbstractTram implements Objects {
         }
         return positions;
     }
+
+
 }
