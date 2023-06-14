@@ -65,11 +65,22 @@ public class CGuiPanel extends JPanel {
                 // to 10 pikseli^2, dlatego pomnozone razy 10
             }
         }
-        for (Objects o: objects){
+        /*for (Objects o: objects){ używanie petli for each do rysowania powoduje blad Exception in thread "AWT-EventQueue-0" java.util.ConcurrentModificationException
+           na forach internetowych mozna wyczytac, ze taka jest cecha petli for each, analizujac kod nie wykryto, zadnych modyfikacji
+           listy objects podczas iterowania po tej liscie
            o.drawMe(G2D);// rysowanie obietkow statycznych
+        }*/
+
+        for(int i = 0 ; i < objects.size();i++  ){
+            objects.get(i).drawMe(G2D);
         }
-        for(CAbstractTram a: abstractTrams){
+
+        /*for(CAbstractTram a: abstractTrams){ zapobiegawczo, ta petla zostala rowniez zmienona na zwyklego for
             a.drawMe(G2D);// rysowanie wszystkich tramwajow
+        }*/
+
+        for(int i = 0 ; i < abstractTrams.size();i++  ){
+            abstractTrams.get(i).drawMe(G2D);
         }
         G2D.setColor(Color.BLACK); // rysowanie ramki zegara
         G2D.fillRect(1150,50,100,50);
